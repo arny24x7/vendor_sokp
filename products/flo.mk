@@ -1,0 +1,21 @@
+# Boot animation
+TARGET_SCREEN_HEIGHT := 1920
+TARGET_SCREEN_WIDTH := 1080
+
+# Inherit some common SOKP stuff.
+$(call inherit-product, vendor/sokp/configs/common_tablet.mk)
+
+# Enhanced NFC
+$(call inherit-product, vendor/sokp/configs/nfc_enhanced.mk)
+
+# Inherit device configuration
+$(call inherit-product, device/asus/flo/full_flo.mk)
+
+## Device identifier. This must come after all inclusions
+PRODUCT_DEVICE := flo
+PRODUCT_NAME := sokp_flo
+PRODUCT_BRAND := google
+PRODUCT_MODEL := Nexus 7
+PRODUCT_MANUFACTURER := asus
+
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=razor BUILD_FINGERPRINT=google/razor/flo:4.4.3/KTU84L/1148727:user/release-keys PRIVATE_BUILD_DESC="razor-user 4.4.3 KTU84L 1148727 release-keys"
