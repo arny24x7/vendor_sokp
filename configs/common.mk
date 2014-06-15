@@ -21,9 +21,7 @@ PRODUCT_PACKAGES += \
 # SOKP packages
 PRODUCT_PACKAGES += \
     SonicPapers \
-    Launcher3 \
     SonicControls \
-    SokpStats \
     OmniSwitch \
     GPSOptimizer \
     DashClock \
