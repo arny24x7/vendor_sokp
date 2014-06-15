@@ -20,6 +20,8 @@ PRODUCT_PACKAGES += \
 
 # SOKP packages
 PRODUCT_PACKAGES += \
+    SonicPapers \
+    Launcher3 \
     SonicControls \
     SokpStats \
     OmniSwitch \
@@ -181,4 +183,9 @@ PRODUCT_COPY_FILES += \
     vendor/sokp/prebuilt/app/HexoIcons.apk:system/app/HexoIcons.apk \
     vendor/sokp/prebuilt/app/Seeder-2.0.0.apk:system/app/Seeder-2.0.0.apk \
     vendor/sokp/prebuilt/app/ApexLauncher_v2.3.4beta1.apk:system/app/ApexLauncher_v2.3.4beta1.apk \
+    vendor/sokp/prebuilt/app/App_Settings_v1.5-signed.apk:system/app/App_Settings_v1.5-signed.apk \
+    vendor/sokp/prebuilt/app/PerAppfonts.apk:system/app/PerAppfonts.apk \
+    vendor/sokp/prebuilt/app/Xhalo.apk:system/app/Xhalo.apk \
+    vendor/sokp/prebuilt/app/XposedInstaller.apk:system/app/XposedInstaller.apk \
+    vendor/sokp/prebuilt/priv-app/Phab7-signed.apk:system/priv-app/Phab7-signed.apk \
     vendor/sokp/prebuilt/app/ThemeStore.apk:system/app/ThemeStore.apk 
