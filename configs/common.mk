@@ -20,6 +20,8 @@ PRODUCT_PACKAGES += \
 
 # SOKP packages
 PRODUCT_PACKAGES += \
+    SokpStats \
+    SonicPapers \
     SonicControls \
     SokpStats \
     OmniSwitch \
