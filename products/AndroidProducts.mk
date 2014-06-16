@@ -36,4 +36,5 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/tf700t.mk \
     $(LOCAL_DIR)/tf701t.mk \
     $(LOCAL_DIR)/t0lte.mk \
-    $(LOCAL_DIR)/v500.mk 
+    $(LOCAL_DIR)/v500.mk \
+    $(LOCAL_DIR)/edison.mk
