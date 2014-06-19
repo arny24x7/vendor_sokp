@@ -34,4 +34,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
    PRODUCT_DEFAULT_REGION=US \
 
 PRODUCT_COPY_FILES += \
-    vendor/sokp/prebuilt/bootanimation/bootanimation_motorola_540_960.zip:system/media/bootanimation.zip
+    vendor/sokp/prebuilt/bootanimation/bootanimation.zip:system/media/bootanimation.zip
