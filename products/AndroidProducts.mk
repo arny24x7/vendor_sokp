@@ -16,6 +16,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/i9305.mk \
     $(LOCAL_DIR)/i9500.mk \
     $(LOCAL_DIR)/jactiveltexx.mk \
+    $(LOCAL_DIR)/janice.mk \
     $(LOCAL_DIR)/jewel.mk \
     $(LOCAL_DIR)/jflte.mk \
     $(LOCAL_DIR)/ls980.mk \
